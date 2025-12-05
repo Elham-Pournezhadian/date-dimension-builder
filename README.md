@@ -1,10 +1,15 @@
-# DimDate Generator for Gregorian & Persian Calendars
+# Date Dimension Builder (DimDate for Multiple Calendars)
 
 * Author: Ella (Elham) Pournezhadian
 * Contact Links:  
     linkedin.com/in/elham-pournezhadian-2b57b3157  
     stackoverflow.com/users/6876710/el-hum
 --------------------------------------------------
+Current supported calendars:
+- Gregorian
+- Persian (Solar)
+
+  
 This repository contains a small, production-friendly implementation for generating a DimDate table or dataframe that supports both Gregorian and Persian (Jalali) calendars. It originally began as a utility for resolving persistent Persian date issues in operational systems, but has since been expanded and refined into a reusable data-engineering asset.
 
 A well-designed DimDate is a core component of analytical and reporting environments. Although this project includes full Persian calendar support, that is only one example of the many date-level features a DimDate can provide. The structure is entirely extensible, allowing you to add any form of temporal attribute your environment requires — from fiscal periods and holiday markers to custom business rules or derived logic.
