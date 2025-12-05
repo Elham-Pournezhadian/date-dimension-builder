@@ -5,10 +5,13 @@
     linkedin.com/in/elham-pournezhadian-2b57b3157  
     stackoverflow.com/users/6876710/el-hum
 --------------------------------------------------
-This repository contains a small, production-friendly implementation for generating a **DimDate** table or dataframe that supports both **Gregorian** and **Persian (Jalali)** calendars.
-It originally began as a utility for resolving persistent Persian date issues in operational systems, but has since been expanded and refined as a reusable data-engineering asset.
+This repository contains a small, production-friendly implementation for generating a DimDate table or dataframe that supports both Gregorian and Persian (Jalali) calendars. It originally began as a utility for resolving persistent Persian date issues in operational systems, but has since been expanded and refined into a reusable data-engineering asset.
 
-A well-designed DimDate is a core component of analytical and reporting environments.
+A well-designed DimDate is a core component of analytical and reporting environments. Although this project includes full Persian calendar support, that is only one example of the many date-level features a DimDate can provide. The structure is entirely extensible, allowing you to add any form of temporal attribute your environment requires — from fiscal periods and holiday markers to custom business rules or derived logic.
+
+As mentioned in my Medium article, a DimDate is not just a data-warehouse concept. It can be just as valuable in production databases, where pre-computed date logic helps reduce repeated calculations, improves consistency across services, and supports clearer data modelling throughout the wider platform.
+
+
 This project automates the creation of a complete date dimension for any given period, enriched with a wide range of attributes commonly required in:
 
 * Data warehouses
